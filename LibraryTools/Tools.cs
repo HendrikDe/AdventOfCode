@@ -10,6 +10,14 @@ public class Tools
         var lines = File.ReadAllLines(path);
         return lines;
     }
+    public static String GetInputString(string filename)
+    {
+        var path = Directory.GetCurrentDirectory();
+        path = Path.GetFullPath(Path.Combine(path,@"..\..\..\", filename));
+
+        var lines = File.ReadAllText(path);
+        return lines;
+    }
 
     public static Boolean IsDescOrAsc(List<int> list )
     {
