@@ -5,17 +5,19 @@
     <projectFile>Day02/Day02.csproj</projectFile>
     <projectFile>Day03/Day03.csproj</projectFile>
     <projectFile>Day04/Day04.csproj</projectFile>
+    <projectFile>Day05/Day05.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12aad5eb-73c0-4b45-8074-745a2ee86fb9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day04/PuzzleInput04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day04/trial.txt" afterDir="false" />
+    <list default="true" id="12aad5eb-73c0-4b45-8074-745a2ee86fb9" name="Changes" comment="Day04 done">
+      <change afterPath="$PROJECT_DIR$/Day05/InputDay05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day05/InputDay05_part2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day05/trial.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day05/trial_part2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/Day04.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Day04/Day04.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day04/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +170,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day05" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day05/Day05.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -222,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733136156919</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day04 done">
+      <option name="closed" value="true" />
+      <created>1733393261200</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733393261200</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +303,8 @@
     <MESSAGE value="input.txt added" />
     <MESSAGE value="Day02 started" />
     <MESSAGE value="DayO2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="DayO2 done" />
+    <MESSAGE value="Day04 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day04 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
