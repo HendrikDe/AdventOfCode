@@ -9,13 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12aad5eb-73c0-4b45-8074-745a2ee86fb9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day03/PuzzleInput03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day03/trial.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day03/trial2.txt" afterDir="false" />
+    <list default="true" id="12aad5eb-73c0-4b45-8074-745a2ee86fb9" name="Changes" comment="Day02 started">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryTools/Tools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryTools/Tools.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day03/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day03/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +43,19 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/OrderBy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/OrderBy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/ToCollection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/Where.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/Where.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Day01/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -66,34 +73,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.AdventOfCode.executor": "Run",
-    ".NET Project.Day02.executor": "Run",
-    ".NET Project.Day03.executor": "Run",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop__trial",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.AdventOfCode.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Day02.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Day03.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop__trial&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\denniger\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\denniger\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\denniger\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\denniger\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\denniger\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\denniger\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.Day03">
     <configuration name="AdventOfCode" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -131,10 +138,10 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="Day03" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+    <configuration name="Day03" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Day03/bin/Debug/net9.0/Day03.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day03/bin/Debug/net9.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -144,11 +151,16 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net9.0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Day03" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -160,8 +172,7 @@
       <updated>1733081872561</updated>
       <workItem from="1733081874250" duration="1474000" />
       <workItem from="1733091795792" duration="4905000" />
-      <workItem from="1733126505433" duration="9026000" />
-      <workItem from="1733209536724" duration="4259000" />
+      <workItem from="1733126505433" duration="8906000" />
     </task>
     <task id="LOCAL-00001" summary="created solution">
       <option name="closed" value="true" />
@@ -195,15 +206,7 @@
       <option name="project" value="LOCAL" />
       <updated>1733128638968</updated>
     </task>
-    <task id="LOCAL-00005" summary="DayO2 done">
-      <option name="closed" value="true" />
-      <created>1733136156919</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1733136156919</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,8 +258,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="input.txt added" />
     <MESSAGE value="Day02 started" />
-    <MESSAGE value="DayO2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="DayO2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day02 started" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -265,41 +267,14 @@
           <condition expression="recordsList[3]== record" language="C#" />
           <url>file://$PROJECT_DIR$/Day02/Program.cs</url>
           <line>12</line>
-          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day02\Program.cs" initialLine="12" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="347" />
-            </startOffsets>
-            <endOffsets>
-              <option value="348" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day02\Program.cs" containingFunctionPresentation="" />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Day02/Program.cs</url>
           <line>10</line>
-          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day02\Program.cs" initialLine="10" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="298" />
-            </startOffsets>
-            <endOffsets>
-              <option value="299" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day02\Program.cs" containingFunctionPresentation="" />
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day03/Program.cs</url>
-          <line>15</line>
-          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day03\Program.cs" initialLine="15" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="351" />
-            </startOffsets>
-            <endOffsets>
-              <option value="383" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

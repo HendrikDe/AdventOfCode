@@ -7,6 +7,7 @@ var input = LibraryTools.Tools.GetInputString("PuzzleInput03.txt");
 string pattern = "mul\\(([0-9]{1,3}),([0-9]{1,3})\\)|do(n't)?\\(\\)";
 
 
+
 var regex = new Regex(pattern);
 
 var matches = regex.Matches(input);
