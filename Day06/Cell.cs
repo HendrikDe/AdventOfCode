@@ -13,15 +13,21 @@ public static class  EnumDirection
     public static readonly (int A, int B ) West = (0,-1);
     
 };
+
 public class Cell
 {
     
     public bool Visited{get;set;}
     public FieldType Type{get;set;}
     public (int,int) Direction{get;set;}
+    
+    public List<(int,int)> LastDirections{get;set;}  
 
+
+    public Cell(){}
     public Cell(char field)
     {
+        LastDirections = new List<(int,int)>();
         Visited = false;
         switch (field)
         
@@ -39,25 +45,29 @@ public class Cell
          case '^':
          {
              Type = FieldType.Guard;
-             Direction = EnumDirection.East;
+             Direction = EnumDirection.North;
+             LastDirections.Add(Direction);
              Visited = true;
              break;
          }case '<':
          {
              Type = FieldType.Guard;
              Direction = EnumDirection.West;
+             LastDirections.Add(Direction);
              Visited = true;
              break;
          }case '>':
          {
              Type = FieldType.Guard;
              Direction = EnumDirection.East;
+             LastDirections.Add(Direction);
              Visited = true;
              break;
          }case 'v':
          {
              Type = FieldType.Guard;
              Direction = EnumDirection.South;
+             LastDirections.Add(Direction);
              Visited = true;
              break;
          }

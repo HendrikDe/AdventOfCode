@@ -6,12 +6,17 @@
     <projectFile>Day03/Day03.csproj</projectFile>
     <projectFile>Day04/Day04.csproj</projectFile>
     <projectFile>Day05/Day05.csproj</projectFile>
+    <projectFile>Day06/Day06.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12aad5eb-73c0-4b45-8074-745a2ee86fb9" name="Changes" comment="" />
+    <list default="true" id="12aad5eb-73c0-4b45-8074-745a2ee86fb9" name="Changes" comment="Day02 started">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day06/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day06/Cell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day06/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day06/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,13 +42,13 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/HendrikDe/AdventOfCode.git&quot;,
-    &quot;accountId&quot;: &quot;f5bb7ad1-f152-4c3c-9856-2c076eccdb63&quot;
+    &quot;accountId&quot;: &quot;92b326e1-0026-42ac-a183-96b4981894d7&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/OrderBy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/ToCollection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/Where.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/505d92d4dd474b5baf908fd6bb70bae4a0938/6d/78bcf928/Enumerable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c73b3c6c598640c592fd3c6fa226c286e90908/ab/99c5b28a/List`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6354a7b35d7821629924d3676acd7e67a6f7f94343e0e66ec439aa2bd6ed5/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Day01/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -66,8 +71,7 @@
     ".NET Project.AdventOfCode.executor": "Run",
     ".NET Project.Day02.executor": "Run",
     ".NET Project.Day03.executor": "Run",
-    ".NET Project.Day04.executor": "Run",
-    ".NET Project.Day05.executor": "Run",
+    ".NET Project.Day06.executor": "Run",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -82,9 +86,16 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\denniger\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\denniger\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\denniger\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Day05">
+  <component name="RunManager" selected=".NET Project.Day06">
     <configuration name="AdventOfCode" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -121,10 +132,10 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="Day03" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+    <configuration name="Day03" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Day03/bin/Debug/net9.0/Day03.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day03/bin/Debug/net9.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -134,25 +145,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="Day04" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day04/Day04.csproj" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net9.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -175,6 +168,29 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day06" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day06/Day06.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Day03" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -186,9 +202,7 @@
       <updated>1733081872561</updated>
       <workItem from="1733081874250" duration="1474000" />
       <workItem from="1733091795792" duration="4905000" />
-      <workItem from="1733126505433" duration="9026000" />
-      <workItem from="1733209536724" duration="4259000" />
-      <workItem from="1733403905857" duration="7473000" />
+      <workItem from="1733126505433" duration="8906000" />
     </task>
     <task id="LOCAL-00001" summary="created solution">
       <option name="closed" value="true" />
@@ -222,39 +236,7 @@
       <option name="project" value="LOCAL" />
       <updated>1733128638968</updated>
     </task>
-    <task id="LOCAL-00005" summary="DayO2 done">
-      <option name="closed" value="true" />
-      <created>1733136156919</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1733136156919</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Day04 done">
-      <option name="closed" value="true" />
-      <created>1733393261200</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1733393261200</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Day05 wip">
-      <option name="closed" value="true" />
-      <created>1733395326221</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1733395326221</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Day05 done!">
-      <option name="closed" value="true" />
-      <created>1733411281079</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1733411281079</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,11 +288,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="input.txt added" />
     <MESSAGE value="Day02 started" />
-    <MESSAGE value="DayO2 done" />
-    <MESSAGE value="Day04 done" />
-    <MESSAGE value="Day05 wip" />
-    <MESSAGE value="Day05 done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day05 done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day02 started" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -319,43 +297,21 @@
           <condition expression="recordsList[3]== record" language="C#" />
           <url>file://$PROJECT_DIR$/Day02/Program.cs</url>
           <line>12</line>
-          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day02\Program.cs" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="347" />
-            </startOffsets>
-            <endOffsets>
-              <option value="348" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day02\Program.cs" containingFunctionPresentation="" />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Day02/Program.cs</url>
           <line>10</line>
-          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day02\Program.cs" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="298" />
-            </startOffsets>
-            <endOffsets>
-              <option value="299" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day02\Program.cs" containingFunctionPresentation="" />
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day03/Program.cs</url>
-          <line>16</line>
-          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day03\Program.cs" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="352" />
-            </startOffsets>
-            <endOffsets>
-              <option value="384" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Frame#Program.&lt;&lt;Main&gt;$&gt;g__GuardStep|0_3" memberName="guard" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
