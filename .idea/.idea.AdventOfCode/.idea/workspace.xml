@@ -11,10 +11,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12aad5eb-73c0-4b45-8074-745a2ee86fb9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day05/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="12aad5eb-73c0-4b45-8074-745a2ee86fb9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +188,7 @@
       <workItem from="1733091795792" duration="4905000" />
       <workItem from="1733126505433" duration="9026000" />
       <workItem from="1733209536724" duration="4259000" />
-      <workItem from="1733403905857" duration="7203000" />
+      <workItem from="1733403905857" duration="7473000" />
     </task>
     <task id="LOCAL-00001" summary="created solution">
       <option name="closed" value="true" />
@@ -249,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733395326221</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day05 done!">
+      <option name="closed" value="true" />
+      <created>1733411281079</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733411281079</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +309,8 @@
     <MESSAGE value="DayO2 done" />
     <MESSAGE value="Day04 done" />
     <MESSAGE value="Day05 wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day05 wip" />
+    <MESSAGE value="Day05 done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day05 done!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
