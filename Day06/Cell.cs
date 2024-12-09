@@ -19,9 +19,9 @@ public class Cell
     
     public bool Visited{get;set;}
     public FieldType Type{get;set;}
-    public (int,int) Direction{get;set;}
+    public (int,int) Direction{get;set;} 
     
-    public List<(int,int)> LastDirections{get;set;}  
+    public List<(int,int)> LastDirections{get;set;}  = new List<(int,int)>();
 
 
     public Cell(){}
