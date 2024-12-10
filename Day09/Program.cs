@@ -20,6 +20,7 @@ for (int i = 0; i < inputString.Length; i++)
 List<int> output = new ();
 for (int i = 0; i < files.Count; i++)
 {
+    
     if (files[i].id != -1)
     {
         
@@ -32,6 +33,11 @@ for (int i = 0; i < files.Count; i++)
             while (files[^1].amount == 0 || files[^1].id == -1)
             {
                 files.RemoveAt(files.Count - 1);
+            }
+
+            if (i == files.Count)
+            {
+                break;
             }
             output.Add(files.Last().Item1);
             files[^1]=(files[^1].Item1,files[^1].Item2-1);

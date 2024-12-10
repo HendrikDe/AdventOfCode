@@ -7,19 +7,24 @@
     <projectFile>Day04/Day04.csproj</projectFile>
     <projectFile>Day05/Day05.csproj</projectFile>
     <projectFile>Day06/Day06.csproj</projectFile>
+    <projectFile>Day07/Day07.fsproj</projectFile>
     <projectFile>Day08/Day08.csproj</projectFile>
     <projectFile>Day09/Day09.csproj</projectFile>
+    <projectFile>Day09Extern/Day09Extern.csproj</projectFile>
+    <projectFile>Day09_Compare/Day09_Compare.csproj</projectFile>
+    <projectFile>TestProject1/TestProject1.fsproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12aad5eb-73c0-4b45-8074-745a2ee86fb9" name="Changes" comment="for real this time">
-      <change afterPath="$PROJECT_DIR$/Day09/PuzzleInput09.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/trial.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day09_Compare/PuzzleInput09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day09_Compare/trial.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day09/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day09/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop_trial" />
+        <entry key="$PROJECT_DIR$" value="Day08" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,11 +55,21 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/OrderBy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/ToCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/Where.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b81cb3be224213a6a73519b6e340a628d9a1fb8629c351a186a26f6376669/List.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/de8a243f75215d958afa80cf80a41b4981a44efea7db93bffcdaf7bd6ba378c0/Number.Parsing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Day01/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Day08/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Day09/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Day09Extern/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -77,16 +92,18 @@
     ".NET Project.Day02.executor": "Run",
     ".NET Project.Day03.executor": "Run",
     ".NET Project.Day04.executor": "Run",
-    ".NET Project.Day05.executor": "Run",
+    ".NET Project.Day05.executor": "Debug",
     ".NET Project.Day08.executor": "Run",
-    ".NET Project.Day09.executor": "Debug",
+    ".NET Project.Day09.executor": "Run",
+    ".NET Project.Day09_Compare.executor": "Run",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Day08",
+    "git-widget-placeholder": "develop__trial",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/denniger/RiderProjects/AdventOfCode/AdventOfCode.sln",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -133,10 +150,10 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="Day03" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+    <configuration name="Day03" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Day03/bin/Debug/net9.0/Day03.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day03/bin/Debug/net9.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -146,7 +163,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net9.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -187,6 +204,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day07 (1)" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Day07/bin/Debug/net9.0/Day07.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day07/bin/Debug/net9.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day07/Day07.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net9.0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Day08" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -223,6 +258,32 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day09_Compare" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day09_Compare/Day09_Compare.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Day07 (1)" />
+        <item itemvalue=".NET Project.Day03" />
+        <item itemvalue=".NET Project.Day07 (1)" />
+        <item itemvalue=".NET Project.Day03" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -238,6 +299,7 @@
       <workItem from="1733209536724" duration="4259000" />
       <workItem from="1733403905857" duration="7473000" />
       <workItem from="1733815155509" duration="6721000" />
+      <workItem from="1733838798330" duration="3919000" />
     </task>
     <task id="LOCAL-00001" summary="created solution">
       <option name="closed" value="true" />
@@ -337,7 +399,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Day08" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
         <entry key="f22f0edf-f774-413c-967f-f80fb9db1258">
@@ -423,45 +497,53 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day08/Program.cs</url>
-          <line>55</line>
-          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day08\Program.cs" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="1613" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1657" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day08/Program.cs</url>
-          <line>37</line>
-          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day08\Program.cs" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="926" />
-            </startOffsets>
-            <endOffsets>
-              <option value="927" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Day09/Program.cs</url>
-          <line>47</line>
+          <line>46</line>
           <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day09\Program.cs" containingFunctionPresentation="">
             <startOffsets>
-              <option value="1106" />
+              <option value="1093" />
             </startOffsets>
             <endOffsets>
-              <option value="1132" />
+              <option value="1110" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <condition expression="i == 10518" language="C#" />
+          <url>file://$PROJECT_DIR$/Day09/Program.cs</url>
+          <line>21</line>
+          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day09\Program.cs" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="541" />
+            </startOffsets>
+            <endOffsets>
+              <option value="542" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Day09_Compare/Program.cs</url>
+          <line>58</line>
+          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day09_Compare\Program.cs" containingFunctionPresentation="Method 'Part01'">
+            <startOffsets>
+              <option value="1641" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1685" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#System.Collections.Generic.DebugViewDictionaryItem`2" memberName="Value" />
+        <PinnedItemInfo parentTag="Frame#Program.&lt;&lt;Main&gt;$&gt;g__GuardStep|0_3" memberName="guard" />
+        <PinnedItemInfo parentTag="Frame#Program.&lt;Main&gt;$" memberName="copyBoard" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
