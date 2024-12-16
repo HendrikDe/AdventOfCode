@@ -18,11 +18,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12aad5eb-73c0-4b45-8074-745a2ee86fb9" name="Changes" comment="for real this time">
-      <change afterPath="$PROJECT_DIR$/Day09_Compare/PuzzleInput09.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09_Compare/trial.txt" afterDir="false" />
+    <list default="true" id="12aad5eb-73c0-4b45-8074-745a2ee86fb9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/shelf/Uncommitted_changes_before_Update_at_03_12_2024_16_05_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/shelf/Uncommitted_changes_before_Update_at_03_12_2024_16_05__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/shelf/Uncommitted_changes_before_Update_at_05_12_2024_09_23_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/shelf/Uncommitted_changes_before_Update_at_05_12_2024_09_23__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2024_12_28_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2024_12_28__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/shelf/Uncommitted_changes_before_Update_at_09_12_2024_08_25_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/shelf/Uncommitted_changes_before_Update_at_09_12_2024_08_25__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day09/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day09/Program.cs" afterDir="false" />
     </list>
@@ -55,16 +60,11 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/OrderBy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/ToCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/libraries/System.Linq/src/System/Linq/Where.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b81cb3be224213a6a73519b6e340a628d9a1fb8629c351a186a26f6376669/List.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c7102cd0ffb8973777e61b1942c3fffac7e14016a511d055c3adf73ff91748/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/de8a243f75215d958afa80cf80a41b4981a44efea7db93bffcdaf7bd6ba378c0/Number.Parsing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Day01/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Day08/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -94,7 +94,7 @@
     ".NET Project.Day04.executor": "Run",
     ".NET Project.Day05.executor": "Debug",
     ".NET Project.Day08.executor": "Run",
-    ".NET Project.Day09.executor": "Run",
+    ".NET Project.Day09.executor": "Debug",
     ".NET Project.Day09_Compare.executor": "Run",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -299,7 +299,8 @@
       <workItem from="1733209536724" duration="4259000" />
       <workItem from="1733403905857" duration="7473000" />
       <workItem from="1733815155509" duration="6721000" />
-      <workItem from="1733838798330" duration="3919000" />
+      <workItem from="1733838798330" duration="4219000" />
+      <workItem from="1734341740701" duration="4035000" />
     </task>
     <task id="LOCAL-00001" summary="created solution">
       <option name="closed" value="true" />
@@ -381,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733815620305</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Day09 part 1 finshed">
+      <option name="closed" value="true" />
+      <created>1733843030241</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733843030241</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +460,8 @@
     <MESSAGE value="Day05 done!" />
     <MESSAGE value="Day 08 finished!" />
     <MESSAGE value="for real this time" />
-    <option name="LAST_COMMIT_MESSAGE" value="for real this time" />
+    <MESSAGE value="Day09 part 1 finshed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day09 part 1 finshed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -497,33 +507,6 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day09/Program.cs</url>
-          <line>46</line>
-          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day09\Program.cs" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="1093" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1110" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <condition expression="i == 10518" language="C#" />
-          <url>file://$PROJECT_DIR$/Day09/Program.cs</url>
-          <line>21</line>
-          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day09\Program.cs" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="541" />
-            </startOffsets>
-            <endOffsets>
-              <option value="542" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Day09_Compare/Program.cs</url>
           <line>58</line>
           <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day09_Compare\Program.cs" containingFunctionPresentation="Method 'Part01'">
@@ -535,6 +518,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Day09/Program.cs</url>
+          <line>93</line>
+          <properties documentPath="C:\Users\denniger\RiderProjects\AdventOfCode\Day09\Program.cs" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="2205" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2238" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
