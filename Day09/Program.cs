@@ -4,7 +4,8 @@ string trial = "trial.txt";
 string input = "PuzzleInput09.txt";
 
 
-var inputString = LibraryTools.Tools.GetInputString(trial);
+var inputString = LibraryTools.Tools.GetInputString(
+    input);
 
 List<(int id,int amount)> files = new List<(int,int)>();
 var counter = 0;
@@ -69,12 +70,15 @@ for (int i = filesPartTwo.Count-1; i > 0; i--)
                 filesPartTwo[j]=(filesPartTwo[j].id,filesPartTwo[j].amount-filesPartTwo[i].amount);
                 if (filesPartTwo[j].amount == 0)
                 {
-                    files.RemoveAt(j);
+                    filesPartTwo.RemoveAt(j);
                     i--;
                 }
                 filesPartTwo.Insert(j,filesPartTwo[i]);
                 j++;
-                filesPartTwo.RemoveAt(i+1);
+                i++;
+                filesPartTwo.RemoveAt(i);
+                filesPartTwo.Insert(i,(-1,filesPartTwo[j-1].amount));
+                break;
             }
         }
     }
